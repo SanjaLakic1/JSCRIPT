@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Igra memorije</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Memorija</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrap" controls autoplay>	
+    
+            <header>
+                    <h1>IGRA MEMORIJE - CRTANI FILMOVI</h1>
+
+                <label for="ime">Ime igrača </label><input type="text" id="ime" placeholder="Ime igraca" maxlength="20">
+                <button id="nova_igra">Nova igra</button>
+    
+                <p>
+                    Preostalo vreme: 
+                    <strong id="vreme"></strong> sekundi 
+                    <br>	
+                    za igrača: <strong id="igrac"></strong>
+                </p>
+            </header>
+    
+            <section>
+                <div id="tabla">
+                </div>
+            </section>
+    
+            <footer>
+                Osvojeno poena: <span id="poeni">0</span>
+            </footer>
+        </div>
+    
+    
+        <!-- Datoteka sa javascript kodom -->
+        <script src="memory.js"></script>
+    
+    
+    
+</body>
+</html>

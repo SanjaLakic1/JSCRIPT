@@ -1,0 +1,51 @@
+body {
+	background-color:aquamarine;
+    background-image: url('pozadina1.jpg');
+    background-repeat: no-repeat;
+	font-family: sans-serif;
+	background-size: cover;
+  
+
+
+
+}
+h1 {
+	color:red;
+	font-family: cursive;
+}
+.wrap {
+	max-width: 500px;
+	margin: auto;
+	font-family: cursive;
+
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-family: cursive;
+
+}
+
+#tabla {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.polje {
+	flex-basis: 15%;
+}
+
+.polje img {
+	width: 100%;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: cursive;
+
+}
